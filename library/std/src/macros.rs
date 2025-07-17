@@ -413,6 +413,7 @@ macro_rules! dbg {
 /// [`HashMap::insert`]: crate::collections::HashMap::insert
 #[macro_export]
 #[allow_internal_unstable(hint_must_use)]
+#[unstable(feature = "hash_map_macro", issue = "144032")]
 #[rustc_diagnostic_item = "hash_map_macro"]
 macro_rules! hash_map {
     () => {{
