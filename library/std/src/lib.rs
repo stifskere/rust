@@ -294,6 +294,7 @@
 #![feature(f128)]
 #![feature(ffi_const)]
 #![feature(formatting_options)]
+#![feature(hash_map_macro)]
 #![feature(if_let_guard)]
 #![feature(intra_doc_pointers)]
 #![feature(iter_advance_by)]
@@ -320,7 +321,6 @@
 #![feature(try_trait_v2)]
 #![feature(type_alias_impl_trait)]
 #![feature(unsigned_signed_diff)]
-#![feature(hash_map_macro)]
 // tidy-alphabetical-end
 //
 // Library features (core):
