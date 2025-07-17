@@ -394,6 +394,8 @@ macro_rules! dbg {
 /// An example usage of this macro could be the following
 ///
 /// ```rust
+/// #![feature(hash_map_macro)]
+///
 /// let map = hash_map!{
 ///     "key" => "value",
 ///     "key1" => "value1"
