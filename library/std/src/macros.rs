@@ -422,8 +422,8 @@ macro_rules! hash_map {
     }};
 
     ( $( $key:expr => $value:expr ),* $(,)? ) => {{
-        let mut __map = ::std::collections::HashMap::new();
-        $( __map.insert($key, $value); )*
-        __map
+        let mut map = ::std::collections::HashMap::new();
+        $( map.insert($key, $value); )*
+        map
     }}
 }
